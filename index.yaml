@@ -3,7 +3,7 @@ entries:
   subchart_parent:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-25T12:35:08.425903074Z"
+    created: "2022-05-25T13:04:11.577637525Z"
     dependencies:
     - name: subchart1
       repository: file://../subchart1/
@@ -18,4 +18,4 @@ entries:
     urls:
     - https://kader9090.github.io/helmparent/subchart_parent-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-25T12:35:08.424524701Z"
+generated: "2022-05-25T13:04:11.571306296Z"
