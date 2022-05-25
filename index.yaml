@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  subchart_parent:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-25T12:35:08.425903074Z"
+    dependencies:
+    - name: subchart1
+      repository: file://../subchart1/
+      version: 0.1.0
+    - name: subchart2
+      repository: file://../subchart2/
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: ca79b9ad69edf082af5b1310f73b4690b33ac88fc6741d4db2393124856457e6
+    name: subchart_parent
+    type: application
+    urls:
+    - https://kader9090.github.io/helmparent/subchart_parent-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-25T12:35:08.424524701Z"
