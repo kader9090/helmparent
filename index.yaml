@@ -6,10 +6,10 @@ entries:
     created: "2022-05-25T13:04:11.577637525Z"
     dependencies:
     - name: subchart1
-      repository: file://./subchart1/
+      repository: file://../subchart1/
       version: 0.1.0
     - name: subchart2
-      repository: file://./subchart2/
+      repository: file://../subchart2/
       version: 0.1.0
     description: A Helm chart for Kubernetes
     digest: ca79b9ad69edf082af5b1310f73b4690b33ac88fc6741d4db2393124856457e6
